@@ -1,0 +1,530 @@
+@charset "utf-8";
+/* Global Styles */
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	width: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: 'Verdana', sans-serif;
+	color: white;
+	background-color: #0074bb;
+}
+.externalResourcesNav button{
+	margin-top : 5%;
+}
+button {
+	background-color: #0074bb;
+	display: flex;
+	justify-content: center;
+	padding: 14px 25px;
+	margin: auto;
+	border-color: #e2b243;
+	color: white;
+	font-weight: bold;
+	border-radius: 25px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+button a {
+	text-decoration: none;
+}
+button:hover {
+	background-color: #e2b243;
+	color: black;
+}
+/* Header */
+header {
+	display: block;
+}
+
+header .profilePhoto img {
+	width: 259px;
+	height: auto;
+	margin-top: 30%;
+	clear: both;
+}
+header .profileHeader h1 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+header .profileHeader h3 {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+header .profileHeader p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+	margin-left: 18%;
+}
+header .profileHeader img {
+	width: 40%;
+}
+header .socialNetworkNavBar {
+	text-align: center;
+	display: block;
+	clear: both;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	border-radius: 50%;
+	cursor: pointer;
+}
+header .socialNetworkNavBar img:hover {
+	opacity: 0.5;
+}
+/* Main Content sections */
+.mainContent .section1 {
+	display: block;
+	margin-top: 3%;
+}
+.mail, .phone, .map{
+	display:flex;
+	align-items: center;
+}
+.mainContent .section1 span {
+	margin-left: 1%;
+}
+.mainContent .section1 a{
+	text-decoration: none;
+	color:white;
+}
+.mainContent .section1 img{
+	width: 4%;
+}
+.section1 .sectionTitle {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.section1 .sectionTitleRule {
+	margin: 0 3% 0 0;
+	float: left;
+	clear: both;
+}
+.section1 .sectionTitleRule2{
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	padding: 0px;
+	margin-top: 10%;
+}
+.mainContent .section1 .section1Content {
+	font-size: 14px;
+	font-weight: 100;
+	color: white;
+}
+
+.mainContent {
+	display: block;
+}
+.mainContent .externalResourcesNav .externalResources {
+	background-color: rgba(208,207,207,1.00);
+	display: inline-block;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 3%;
+	cursor: pointer;
+}
+
+.externalResourcesNav .externalResources a {
+
+	color: rgba(255,255,255,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+}
+
+/*slide*/
+.slide{
+	width: 90%;
+	margin: auto;
+}
+.slide h2{
+	font-size: 4rem;
+}
+.container img {
+	vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+	position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 7.5%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+/* Footer */
+footer .footerDisclaimer {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	font-weight: 400;
+}
+footer .footerDisclaimer a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+footer .footerNote {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 700;
+}
+footer .footerNote span {
+	font-weight: 400;
+}
+/*--------------------------------------------------------------------- Responsive -------------------------------------------------------------------*/
+/* --------------------------------------------------------Media query for Mobile devices------------------------------------------------------------*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+	display: inline-block;
+}
+header .profilePhoto img {
+	margin-left: 25%;
+    width: 50%;
+}
+header .profileHeader h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+header .profileHeader {
+	text-align: center;
+	margin-top: 10%;
+}
+header .profileHeader p {
+	text-align: left;
+	margin: auto;
+}
+header .profileHeader img {
+    width: 100%;
+}
+header .socialNetworkNavBar {
+	text-align: center;
+	display: block;
+	margin-top: 60px;
+	clear: both;
+	margin-bottom: 15%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content sections */
+.mainContent .section1 {
+	text-align: center;
+	margin-bottom: 10%;
+}
+.section1 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule {
+	width: 100%;
+}
+.section1 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: inline-block;
+	text-align: left;
+	font-family: sans-serif;
+	text-align: justify;
+}
+.slide h2{
+	font-size: 2rem;
+}
+.slide .container{
+	width: 100%;
+}
+.caption-container, .row {
+    display: none;
+}
+.prev, .next{
+	position: relative;
+}
+.numbertext{
+	position: relative;
+	display:flex;
+	justify-content: center;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.mainContent .externalResourcesNav {
+	margin-bottom: 10%;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 100%;
+	height: 35px;
+	border-radius: 50%;
+}
+.mainContent{
+	margin-top: 10%;
+}
+.mainContent .section1 img {
+    width: 8%;
+}
+.mainContent .section1 span {
+    margin-left: 1%;
+    font-size: 0.8rem;
+    text-align: left;
+}	
+/* Footer */
+footer {
+	display: block;
+	text-align: center;
+}
+}
+
+/*------------------------------------------------------------------------- Media Query for Tablets --------------------------------------------------------*/
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	display: inline-block;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+header .profilePhoto img{
+width: 160px;
+}
+header .profileHeader {
+	text-align: left;
+	margin-top: 7%;
+}
+header .profileHeader h1{
+font-size: 2rem;
+line-height: 30px;
+}
+header .profileHeader img {
+    width: 50%;
+}
+/*slide*/
+.slide{
+	width: 100%;
+	margin: auto;
+}
+.slide h2 {
+    font-size: 2rem;
+}
+.row{
+	display: none;
+}
+.caption-container {
+    height: 40px;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content and sections */
+.section1 .section1Title {
+	text-align: center;
+}
+.section1 .sectionTitleRule{
+	width: 100%;
+}
+.section1 .sectionTitleRule2 {
+	display: none;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin: 0% 0% 0% 20%;
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.mainContent .externalResourcesNav {
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+	margin-top: 5%;
+}
+/*social link*/
+
+
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+}
+}
+
+/* -----------------------------------------------------------------------Desktops and laptops ------------------------------------------------------- */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+header .profilePhoto {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+}
+header .profileHeader {
+	text-align: left;
+	padding-top: 10%;
+}
+header .socialNetworkNavBar .socialNetworkNav {
+	width: 74px;
+	height: 74px;
+	display: inline-block;
+	margin-right: 23px;
+}
+/* Main content sections */
+.section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	width: 22.5%;
+}
+.mainContent .section1 .section1Content {
+	display: block;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 26%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+}
+.mainContent .section2 {
+	clear: both;
+}
+.section2 .section2Content {
+	padding: 0px;
+	margin-left: 26%;
+}
+.mainContent .externalResourcesNav {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 0px;
+	clear: both;
+}
+.mainContent .externalResourcesNav .externalResources {
+	width: 199px;
+	height: 48px;
+}
+/* Footer */
+footer .footerDisclaimer {
+	float: left;
+	margin-left: 3%;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+}
+}
